@@ -1,0 +1,109 @@
+body
+{
+  position: absolute;
+  margin: 0;
+}
+
+.navegador 
+{
+  display: inline-block;
+}
+
+.navegador li
+{
+  display: inline;
+}
+
+.header
+{
+  position: fixed;
+  background: blue;
+  height: 56px;
+  width: 1800px;
+  background: #4a6c82;
+}
+
+.cajatxt
+{
+  margin-left: 400px;
+}
+
+.navegador li
+{
+  color: white;
+  margin-right: 20px;
+}
+
+.boton
+{
+  margin-left: 20px;
+}
+
+.posts
+{
+  height: 95px;
+}
+
+.cuerpo
+{
+  margin: 56px 170px 0 170px;
+  width: 1000px;
+}
+
+.principal
+{
+  height: 385px;
+  background: url("../images/Imagen_post.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1000px 450px;
+}
+
+.DatosPrincipal
+{
+  width: 527px;
+  height: 153px;
+  background-color: white;
+  margin: 190px 0 0 30px;
+  float: left;
+}
+
+.DatosPrincipal h2
+{
+  margin-left: 25px;
+}
+
+.FotoDelAutor
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 30px 0 30px;
+}
+
+.InfoPostPrincipal
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.posts
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.post
+{
+  height: 330px;
+  width: 330px;
+  background-color: red;
+}
+
+.barra
+{
+  
+}
