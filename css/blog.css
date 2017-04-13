@@ -1,21 +1,17 @@
-body
-{
+body {
   position: absolute;
   margin: 0;
 }
 
-.navegador 
-{
+.navegador {
   display: inline-block;
 }
 
-.navegador li
-{
+.navegador li {
   display: inline;
 }
 
-.header
-{
+.header {
   position: fixed;
   background: blue;
   height: 56px;
@@ -23,35 +19,25 @@ body
   background: #4a6c82;
 }
 
-.cajatxt
-{
+.cajatxt {
   margin-left: 400px;
 }
 
-.navegador li
-{
+.navegador li {
   color: white;
   margin-right: 20px;
 }
 
-.boton
-{
+.boton {
   margin-left: 20px;
 }
 
-.posts
-{
-  height: 95px;
-}
-
-.cuerpo
-{
+.cuerpo {
   margin: 56px 170px 0 170px;
   width: 1000px;
 }
 
-.principal
-{
+.principal {
   height: 385px;
   background: url("../images/Imagen_post.png");
   background-repeat: no-repeat;
@@ -59,8 +45,7 @@ body
   background-size: 1000px 450px;
 }
 
-.DatosPrincipal
-{
+.DatosPrincipal {
   width: 527px;
   height: 153px;
   background-color: white;
@@ -68,13 +53,11 @@ body
   float: left;
 }
 
-.DatosPrincipal h2
-{
+.DatosPrincipal h2 {
   margin-left: 25px;
 }
 
-.FotoDelAutor
-{
+.FotoDelAutor {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -82,28 +65,53 @@ body
   margin: 0 30px 0 30px;
 }
 
-.InfoPostPrincipal
-{
+.InfoPostPrincipal {
   display: flex;
   justify-content: space-between;
   margin: 25px;
 }
 
-.posts
-{
+.posts {
+  height: 95px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.post
-{
-  height: 330px;
-  width: 330px;
-  background-color: red;
+.post {
+  height: 319px;
+  width: 319px;
 }
 
-.barra
-{
-  
+.DatosPost{
+  display: flex;
+  justify-content: space-between;
+}
+
+.AutorPost {
+  margin: 0;
+}
+
+.FechaPost {
+  margin: 0;
+}
+
+.TituloPost {
+  margin: 15px 0 23px 0;
+}
+
+.imgPost {
+  height: 215px;
+}
+
+.Navegacion {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 37px 0 23px 0;
+}
+
+.Navegacion h3 {
+  display: inline;
+  margin: 0;
 }
